@@ -14,6 +14,7 @@ var main_canvas = document.getElementById("main-canvas")
 var park_canvas = document.getElementById("park-canvas")
 var modal = document.getElementById("modal")
 var modal_close_button = document.getElementById('modal-close-button')
+var copyright_footer = document.getElementById("copyright")
 
 function getParks() {
     parks.forEach(function (park, park_index) {
@@ -25,6 +26,7 @@ function getParks() {
         a.href = `#`
         a.onclick = function () {
             main_canvas.style.filter = "blur(15px)"
+            copyright_footer.style.filter = "blur(15px)"
             modal.style.display = 'block'
             modal.querySelector("modal-title").textContent = park
             modal.querySelector("modal-text").textContent = park_reviews[park_index]
@@ -36,6 +38,7 @@ function getParks() {
 
 modal_close_button.onclick = function () {
     main_canvas.style.filter = "blur(0px)"
+    copyright_footer.style.filter = "blur(0px)"
     modal.style.display = 'none';
 }
 
