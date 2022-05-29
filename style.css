@@ -7,7 +7,6 @@ body {
     padding: 1em;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
-    backdrop-filter: blur(5px);
 }
 
 .park-canvas {
@@ -25,20 +24,20 @@ body {
 }
 
 .modal {
-  background-color: rgb(41, 51, 63);
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  top: 1p;
-  transform: translate(-50%, -50%);
-  margin: auto;
-  line-height: 1.5em;
-  padding: 1em;
-  border-radius: 1em;
-  border-style: solid;
-  display: none;
+    background-color: rgb(41, 51, 63);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    top: 1p;
+    transform: translate(-50%, -50%);
+    margin: auto;
+    line-height: 1.5em;
+    padding: 1em;
+    border-radius: 1em;
+    border-style: solid;
+    display: none;
 }
 
-.modal modal-title{
+.modal modal-title {
     font-size: 25px;
 }
