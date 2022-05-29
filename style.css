@@ -1,0 +1,44 @@
+body {
+    color: white;
+    background-color: #1b1b1aef;
+    max-width: 1000px;
+    margin: auto;
+    line-height: 1.5em;
+    padding: 1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    backdrop-filter: blur(5px);
+}
+
+.park-canvas {
+    padding: 1em;
+    border-style: solid;
+    border-radius: 1em;
+    border-color: rgb(73, 73, 59);
+    border-spacing: 500px;
+    background-color: rgb(37, 36, 36);
+    text-align: center;
+}
+
+.park-canvas a {
+    color: aquamarine;
+}
+
+.modal {
+  background-color: rgb(41, 51, 63);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  top: 1p;
+  transform: translate(-50%, -50%);
+  margin: auto;
+  line-height: 1.5em;
+  padding: 1em;
+  border-radius: 1em;
+  border-style: solid;
+  display: none;
+}
+
+.modal modal-title{
+    font-size: 25px;
+}
