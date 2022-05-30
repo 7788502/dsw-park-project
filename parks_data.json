@@ -5,7 +5,10 @@
             "review":"While on a trip to Wroclaw, we found this place because we were captivated by the plants. The entrance fee was 10 PLN per adult. In the park there are beautiful ponds where lilies grow, there are also bridges in the Japanese style. In the Japanese garden there are many different plants such as bonsai trees. There is also a small waterfall in the park. Japanese garden is not big, but it is surrounded by a huge park, which I also recommend to see. At the end of the tour of the Japanese garden I recommend to go to the Centennial Hall for a fountain show. The whole place has its own wonderful charm that we really recommend to see everyone who wants to relax and unwind.",
             "rating": "8/10",
             "photos": [
-                "https://cdn.img.wroclaw.pl/api/download/img-3e943f480a18003d75e168ec7cdcbb39/ogrod-japonski-panorama-jpg.jpg"
+                "https://cdn.img.wroclaw.pl/api/download/img-3e943f480a18003d75e168ec7cdcbb39/ogrod-japonski-panorama-jpg.jpg",
+                "https://www.wroclaw.pl/go/download/img-85a045c50a18003d75e168ec7cdcd6ac/ogrod-japonski3-jpg.jpg",
+                "https://media.istockphoto.com/photos/japanese-garden-in-wroclaw-picture-id520044177",
+                "https://image.arrivalguides.com/415x300/04/8b9c92263c0a94e29031f1e9e20dfc15.jpg"
             ]
         },
         {
@@ -13,7 +16,11 @@
             "review": "Beautiful big park with a little stream and a nice bridge. It also have a wooden church and it's near the Japanese Garden. Go there if you want to go for a walk, disconnect from the city, be surrounded by nature or to go for a run or to visit the wooden little church that is located there",
             "rating": "9/10",
             "photos":[
-                "https://go.wroclaw.pl/api/download/img-6a725de20a18003d721aa65f9c58fd60/park-szczytnicki1-jpg.jpg"
+                "https://go.wroclaw.pl/api/download/img-6a725de20a18003d721aa65f9c58fd60/park-szczytnicki1-jpg.jpg",
+                "https://i.pinimg.com/originals/a4/c0/c5/a4c0c57306df0f255452fa42dda50032.jpg",
+                "http://upload.wikimedia.org/wikipedia/commons/a/ab/Park_Szczytnicki_fot_BMaliszewska.jpg",
+                "https://greatruns.com/wp-content/uploads/2019/04/Szczytnicki-Park.jpg"
+
             ]
         },
         {
@@ -21,7 +28,21 @@
             "review": "Beautiful park and at the same time climatic with riparian stand. Former Ostpark. Surrounded by the Upper and Lower Olawa River connecting in its northern part with the Mlynowka River. Entrance to the park through a bridge. Near the park a parking lot and toilets. Established between 1927-29, it originally covered 45 ha - currently 35 ha. The concept of the park was developed by Paul Dannenberg (the city gardens director in 1913-1928). Interesting! It was intended for the less affluent residents of the workers' housing estate Księże Małe, the so-called Volkspark. Since 1928 within the borders of Wroclaw. In 1935 on the central clearing a monument was set up dedicated to Hitl. SA, now in ruins. Formerly there was also a bathing site here.",
             "rating": "8/10",
             "photos":[
-                "https://1.bp.blogspot.com/-VY-2zKOGGjw/XERVPhoYHuI/AAAAAAABfIQ/GHjABhwGLRsdvepc2EWxwlS2C9zoUwsOwCK4BGAYYCw/s1600/DSC_3370-1.jpg"
+                "https://1.bp.blogspot.com/-VY-2zKOGGjw/XERVPhoYHuI/AAAAAAABfIQ/GHjABhwGLRsdvepc2EWxwlS2C9zoUwsOwCK4BGAYYCw/s1600/DSC_3370-1.jpg",
+                "https://www.wroclaw.pl/go/download/img-cd395ef12df7bd087afcc74e9b0632b7/Park-Wschodni-jpg.jpg",
+                "https://i.pinimg.com/originals/37/e1/fa/37e1fa8e70074ca40535c9b8729648ec.jpg",
+                "http://www.tuwroclaw.com/pliki/duze_zdjecia/wiadomosci/odkrywamy/park_wschodni_jesien.jpg"
+            ]
+        },
+        {
+            "name": "Park Południowy",
+            "review": "Park Południowy (Southern Park) with the area of about 30 hectares, its walking part between Powstańców Śląskich, Sudecka, Kutnowska, Ślężna and Pułtuska streets is available free of charge regardless of the time of the year and day. And it's good luck, because the rows of plane trees and lime trees with a flower carpets on the axis towards the pond are great to see at dawn and dusk. Vast clearings with single specimens of trees fill up on sunny weekends with inhabitants of Wrocław eager for contact with greenery. The fountains in the pond attract contemplation seekers, and the Chopin monument gleams from photographers frolicking at its foot. Since recently, the park has been regularly visited by a pair of grey herons and an albino duck. You can observe from a single-span steel bridge with an openwork, wrought-iron railing, from which padlocks disappear from time to time. The South Park has its own viewing terrace protruding into the pond and a hill by the embankment. You used to be able to sit atop it in a pavilion; today Bender's hill no longer has a gazebo there because it burned down in 2018.",
+            "rating": "8/10",
+            "photos":[
+                "https://go.wroclaw.pl/api/download/img-282e063c0a18003d721aa65fbf870e9a/park-poludniowy-panorama3-jpg.jpg",
+                "https://8.allegroimg.com/original/034181/6667a47646cbbb1f76bb6435d8d8/WROCLAW-Park-Poludniowy-restauracja-Haasego-1890",
+                "https://upload.wikimedia.org/wikipedia/commons/1/17/Wroclaw_-_Park_Poludniowy.jpg",
+                "http://www.tuwroclaw.com/pliki/duze_zdjecia/wiadomosci/odkrywamy/park_wschodni_jesien.jpg"
             ]
         }
     ]
