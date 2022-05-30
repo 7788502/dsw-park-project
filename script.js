@@ -24,8 +24,6 @@ function getParks() {
                     park.photos.forEach(function (photo) {
                         var img = document.createElement("img");
                         img.src = photo
-                        img.style.height = '300px'
-                        img.style.width = '400px'
                         modal.querySelector("modal-images").appendChild(img)
                     })
                 }

@@ -41,3 +41,9 @@ body {
 .modal modal-title {
     font-size: 25px;
 }
+
+.modal modal-images {
+    display: inline-flexbox;
+    width: 300px;
+    height: 200px;
+}
