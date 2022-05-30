@@ -25,8 +25,7 @@ function getParks() {
         a.title = park
         a.href = `#`
         a.onclick = function () {
-            main_canvas.style.filter = "blur(15px)"
-            copyright_footer.style.filter = "blur(15px)"
+            blurBackground(true)
             modal.style.display = 'block'
             modal.querySelector("modal-title").textContent = park
             modal.querySelector("modal-text").textContent = park_reviews[park_index]
@@ -37,9 +36,19 @@ function getParks() {
 }
 
 modal_close_button.onclick = function () {
-    main_canvas.style.filter = "blur(0px)"
-    copyright_footer.style.filter = "blur(0px)"
+    blurBackground(false)
     modal.style.display = 'none';
+}
+
+function blurBackground(blur) {
+    if (blur) {
+        main_canvas.style.filter = "blur(15px)"
+        copyright_footer.style.filter = "blur(15px)"
+    } else {
+        main_canvas.style.filter = "blur(0px)"
+        copyright_footer.style.filter = "blur(0px)"
+
+    }
 }
 
 window.onload = function (param) {
