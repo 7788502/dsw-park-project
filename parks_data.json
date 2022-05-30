@@ -1,0 +1,28 @@
+{
+    "parks": [
+        {
+            "name":"Japanese Garden",
+            "review":"While on a trip to Wroclaw, we found this place because we were captivated by the plants. The entrance fee was 10 PLN per adult. In the park there are beautiful ponds where lilies grow, there are also bridges in the Japanese style. In the Japanese garden there are many different plants such as bonsai trees. There is also a small waterfall in the park. Japanese garden is not big, but it is surrounded by a huge park, which I also recommend to see. At the end of the tour of the Japanese garden I recommend to go to the Centennial Hall for a fountain show. The whole place has its own wonderful charm that we really recommend to see everyone who wants to relax and unwind.",
+            "rating": "8/10",
+            "photos": [
+                "https://cdn.img.wroclaw.pl/api/download/img-3e943f480a18003d75e168ec7cdcbb39/ogrod-japonski-panorama-jpg.jpg"
+            ]
+        },
+        {
+            "name": "Park Szczytnicki",
+            "review": "Beautiful big park with a little stream and a nice bridge. It also have a wooden church and it's near the Japanese Garden. Go there if you want to go for a walk, disconnect from the city, be surrounded by nature or to go for a run or to visit the wooden little church that is located there",
+            "rating": "9/10",
+            "photos":[
+                "https://go.wroclaw.pl/api/download/img-6a725de20a18003d721aa65f9c58fd60/park-szczytnicki1-jpg.jpg"
+            ]
+        },
+        {
+            "name": "Park Wschodni",
+            "review": "Beautiful park and at the same time climatic with riparian stand. Former Ostpark. Surrounded by the Upper and Lower Olawa River connecting in its northern part with the Mlynowka River. Entrance to the park through a bridge. Near the park a parking lot and toilets. Established between 1927-29, it originally covered 45 ha - currently 35 ha. The concept of the park was developed by Paul Dannenberg (the city gardens director in 1913-1928). Interesting! It was intended for the less affluent residents of the workers' housing estate Księże Małe, the so-called Volkspark. Since 1928 within the borders of Wroclaw. In 1935 on the central clearing a monument was set up dedicated to Hitl. SA, now in ruins. Formerly there was also a bathing site here.",
+            "rating": "8/10",
+            "photos":[
+                "https://1.bp.blogspot.com/-VY-2zKOGGjw/XERVPhoYHuI/AAAAAAABfIQ/GHjABhwGLRsdvepc2EWxwlS2C9zoUwsOwCK4BGAYYCw/s1600/DSC_3370-1.jpg"
+            ]
+        }
+    ]
+}
