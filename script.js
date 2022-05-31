@@ -63,7 +63,7 @@ modal_close_button.onclick = function () {
 
 map_button.onclick = function () {
     mapState()
-
+}
 
 window.onload = function () {
     getParks()
