@@ -3,6 +3,8 @@ var park_canvas = document.getElementById("park-canvas")
 var modal = document.getElementById("modal")
 var modal_close_button = document.getElementById('modal-close-button')
 var copyright_footer = document.getElementById("copyright")
+var map_bottom = document.getElementById("map")
+var map_button = document.getElementById("map-status-button")
 
 function getParks() {
     fetch("https://raw.githubusercontent.com/exathedev/dsw-park-project/master/parks_data.json")
@@ -34,12 +36,6 @@ function getParks() {
         })
 }
 
-modal_close_button.onclick = function () {
-    blurBackground(false)
-    modal.querySelector("modal-images").textContent = "" /* Terrible way to remove an image, but works for now */
-    modal.style.display = 'none';
-}
-
 function blurBackground(blur) {
     if (blur) {
         main_canvas.style.filter = "blur(15px)"
@@ -51,6 +47,24 @@ function blurBackground(blur) {
     }
 }
 
-window.onload = function (param) {
+function mapState(){
+    if (map_bottom.style.display == "none"){
+        map_bottom.style.display = "block"
+    }else{
+        map_bottom.style.display = "none"
+    }
+}
+
+modal_close_button.onclick = function () {
+    blurBackground(false)
+    modal.querySelector("modal-images").textContent = "" /* Terrible way to remove an image, but works for now */
+    modal.style.display = 'none';
+}
+
+map_button.onclick = function () {
+    mapState()
+
+
+window.onload = function () {
     getParks()
 }
