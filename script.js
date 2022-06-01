@@ -28,6 +28,7 @@ function getParks() {
                         img.src = photo
                         modal.querySelector("modal-images").appendChild(img)
                     })
+                    modal.querySelector("modal-address").textContent = `Address:  ${park.location}`
                 }
                 a.appendChild(link)
                 p.appendChild(a)
