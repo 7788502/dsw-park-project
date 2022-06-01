@@ -17,6 +17,7 @@ body {
     border-spacing: 500px;
     background-color: rgb(37, 36, 36);
     text-align: center;
+    overflow: auto;
 }
 
 .park-canvas a {
@@ -24,19 +25,14 @@ body {
 }
 
 .modal {
-    background-color: rgb(41, 51, 63);
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    margin: auto;
-    line-height: 1.5em;
-    padding: 1em;
-    border-radius: 1em;
-    border-style: solid;
     display: none;
+    background-color: rgb(41, 51, 63);
+    border-radius: 1em;
+    padding: 1em;
+    border-style: solid;
+    align-items: center;
+    transform: translateY(-50%);
 }
-
 .modal modal-title {
     font-size: 25px;
 }
