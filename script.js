@@ -13,9 +13,9 @@ function getParks() {
         })
         .then((parks) => {
             parks["parks"].forEach(park => {
-                var p = document.createElement('p')
-                var a = document.createElement('a')
-                var link = document.createTextNode(`${park.name}`)
+                let p = document.createElement('p')
+                let a = document.createElement('a')
+                let link = document.createTextNode(`${park.name}`)
                 a.title = park.name
                 a.href = `#`
                 a.onclick = function () {
@@ -24,7 +24,7 @@ function getParks() {
                     modal.querySelector("modal-title").textContent = park.name
                     modal.querySelector("modal-text").textContent = park.review
                     park.photos.forEach(function (photo) {
-                        var img = document.createElement("img");
+                        let img = document.createElement("img");
                         img.src = photo
                         modal.querySelector("modal-images").appendChild(img)
                     })
